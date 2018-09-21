@@ -1,0 +1,11 @@
+label.price_unit_label ,
+.price_box label {
+    float: left;
+    margin-right: 10px;
+}
+.price_box label{
+    vertical-align: middle;
+    display: inline-block;
+    float: none;
+}
+.price_box select{}

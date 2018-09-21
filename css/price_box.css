@@ -1,0 +1,96 @@
+#table_price_head{
+    padding: 20px 0;
+    background: #333;
+    margin: 0;
+    width: 98%;
+    display: table;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    max-width: 1000px;
+}
+#table-prices{
+	border-collapse: collapse;
+	margin-bottom: 30px;
+	width: 98%;
+	max-width: 1000px;
+}
+#table-prices tr td h3{
+	text-align: center;
+	border-bottom: 1px solid #949494;
+	padding: 20px;
+	margin: 0;
+	color: #fff;
+	text-transform: uppercase;
+	border: none;
+}
+#table-prices tr td{
+	background: #ffffff;
+	padding: 0px 0;
+	margin: 0;
+	text-align: center;
+}
+#button-save{
+	padding: 15px 30px;
+	border: 1px solid #ccc;
+	background: #2196F3;
+	font-size: 16px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: bold;
+	color: #fff;
+}
+table#table-prices tr {
+    margin: 0;
+    border: 0;
+    padding: 1px 0;
+}
+table#table-prices tr.name-roles td {
+    background: #1d7e20;
+    color: #fff;
+    text-transform: uppercase;
+    /* border-left: #333 1px solid; */
+}
+table#table-prices tr.name-roles td:first-child{
+    border: none;
+    /* background: #fff; */
+}
+table#table-prices tr.name-roles td:last-child{
+}
+table#table-prices tr.name-roles-sub td{
+    /* background: #8BC34A; */
+    color: #fff;
+}
+#table-prices tr td.single {
+    background: #333;
+}
+#table-prices tr td.double {
+    background: #000000;
+}
+table#table-prices tr.name-roles-sub ~.product td {
+	border-top: none;
+}
+
+table#table-prices tr.product td {padding: 5px 0;}
+table#table-prices tr.product td.product_name {
+    text-transform: uppercase;
+    border-top: 1px solid #333;
+    color: #fff;
+    text-align: right;
+    padding-right: 20px;
+    width: 300px;
+}
+table#table-prices tr.name-cat td {
+    background: #2196F3;
+    border: none;
+}
+
+#table-prices tr td input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    opacity: 0.5; /* Firefox */
+}
+#table-prices tr td.product_name {
+    background: #3F51B5!important;
+}
+table#table-prices tr.product td input{
+    width: 70px;
+}
